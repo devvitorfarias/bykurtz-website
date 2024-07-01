@@ -12,8 +12,9 @@ const nextConfig = {
         pathname: '/v0/b/bykurtz-website.appspot.com/o/**',
       },
     ],
+    unoptimized: true, 
   },
+  output: 'export'
 };
-
 
 export default nextConfig;

@@ -19,7 +19,7 @@ export const Header = () => {
   return (
     <header className="h-[96px] w-full bg-background flex items-center px-4 fixed top-0 border-b border-b-black z-10">
       <Link href="/">
-        <Image className="w-[260px] h-[64px]"  src={logo} alt="logo" />
+        <Image width={260} height={64} src="https://firebasestorage.googleapis.com/v0/b/bykurtz-website.appspot.com/o/LOGO-BYKURTZ.png?alt=media" alt="logo" />
       </Link>
       <nav className=" grow h-full hidden lg:flex items-center text-white text-base font-semibold justify-center text-4xl">
         <ul className="flex gap-12 [&>li]:border-b-4 [&>li]:border-b-transparent [&>li]:h-full [&>li]:flex h-full [&>li>a]:m-auto">
