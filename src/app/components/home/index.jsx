@@ -23,7 +23,7 @@ export default function HomePageSolutions() {
             style={{ cursor: 'pointer' }}
             muted
           >
-            <source src="/video1.mp4" type='video/mp4' />
+            <source src="https://firebasestorage.googleapis.com/v0/b/bykurtz-website.appspot.com/o/video1.mp4?alt=media" type='video/mp4' />
           </video>
         </div>
         <div className="mb-4">
@@ -34,7 +34,7 @@ export default function HomePageSolutions() {
             style={{ cursor: 'pointer' }}
             muted
           >
-            <source src="/video1.mp4" type='video/mp4' />
+            <source src="https://firebasestorage.googleapis.com/v0/b/bykurtz-website.appspot.com/o/video2.mp4?alt=media" type='video/mp4' />
           </video>
         </div>
         <div className="mb-4">
@@ -45,7 +45,7 @@ export default function HomePageSolutions() {
             style={{ cursor: 'pointer' }}
             muted
           >
-            <source src="/video1.mp4" type='video/mp4' />
+            <source src="https://firebasestorage.googleapis.com/v0/b/bykurtz-website.appspot.com/o/video4.mp4?alt=media" type='video/mp4' />
           </video>
         </div>
         <div className="mb-4">
@@ -56,69 +56,58 @@ export default function HomePageSolutions() {
             style={{ cursor: 'pointer' }}
             muted
           >
-            <source src="/video1.mp4" type='video/mp4' />
+            <source src="https://firebasestorage.googleapis.com/v0/b/bykurtz-website.appspot.com/o/video3.mp4?alt=media" type='video/mp4' />
           </video>
         </div>
       </div>
       <div className='flex flex-col md:flex-row text-2xl font-semibold gap-4 items-center justify-center'>
-          <div className="mb-4">
-            <h1 className="text-white text-[2rem] leading-[4rem] font-semibold flex justify-center">Mobile Application</h1>
-            <video
-              width={500}            
-              ref={el => videoRefs.current[6] = el}
-              style={{ cursor: 'pointer' }}
-              muted
-            >
-              <source src="/video1.mp4" type='video/mp4' />
-            </video>
-          </div>
-          <div className="mb-4">
-            <h1 className="text-white text-[2rem] leading-[4rem] font-semibold flex justify-center">CYBER SECURITY</h1>
-            <video
-              width={500}            
-              ref={el => videoRefs.current[7] = el}
-              style={{ cursor: 'pointer' }}
-              muted
-            >
-              <source src="/video1.mp4" type='video/mp4' />
-            </video>
-          </div>
-          <div className="mb-4">
-            <h1 className="text-white text-[2rem] leading-[4rem] font-semibold flex justify-center">DEVOPS </h1>
-            <video
-            width={500} 
-              ref={el => videoRefs.current[8] = el}
-              style={{ cursor: 'pointer' }}
-              muted
-            >
-              <source src="/video1.mp4" type='video/mp4' />
-            </video>
-          </div>
-          <div className="mb-4">
-            <h1 className="text-white text-[2rem] leading-[4rem] font-semibold flex justify-center">(AR) & (VR)</h1>
-            <video
-            width={500} 
-              ref={el => videoRefs.current[9] = el}
-              style={{ cursor: 'pointer' }}
-              muted
-            >
-              <source src="/video1.mp4" type='video/mp4' />
-            </video>
-          </div>
-
+        <div className="mb-4">
+          <h1 className="text-white text-[2rem] leading-[4rem] font-semibold flex justify-center">Mobile Application</h1>
+          <video
+            width={500}
+            ref={el => videoRefs.current[6] = el}
+            style={{ cursor: 'pointer' }}
+            muted
+          >
+            <source src="https://firebasestorage.googleapis.com/v0/b/bykurtz-website.appspot.com/o/video7.mp4?alt=media" type='video/mp4' />
+          </video>
         </div>
-        <div className="flex flex-col md:flex-col  text-2xl font-semibold gap-4 items-center justify-center">
-            <h1 className="text-white text-[2rem] leading-[4rem] font-semibold flex justify-center">BLOCK CHAIN</h1>
-            <video
-            width={500} 
-              ref={el => videoRefs.current[10] = el}
-              style={{ cursor: 'pointer' }}
-              muted
-            >
-              <source src="/video1.mp4" type='video/mp4' />
-            </video>
-          </div>
+        <div className="mb-4">
+          <h1 className="text-white text-[2rem] leading-[4rem] font-semibold flex justify-center">CYBER SECURITY</h1>
+          <video
+            width={500}
+            ref={el => videoRefs.current[7] = el}
+            style={{ cursor: 'pointer' }}
+            muted
+          >
+            <source src="https://firebasestorage.googleapis.com/v0/b/bykurtz-website.appspot.com/o/video8.mp4?alt=media" type='video/mp4' />
+          </video>
+        </div>
+        <div className="mb-4">
+          <h1 className="text-white text-[2rem] leading-[4rem] font-semibold flex justify-center">(AR) & (VR)</h1>
+          <video
+            width={500}
+            ref={el => videoRefs.current[9] = el}
+            style={{ cursor: 'pointer' }}
+            muted
+          >
+            <source src="https://firebasestorage.googleapis.com/v0/b/bykurtz-website.appspot.com/o/video9.mp4?alt=media" type='video/mp4' />
+          </video>
+        </div>
+        <div className="mb-4">
+          <h1 className="text-white text-[2rem] leading-[4rem] font-semibold flex justify-center">BLOCK CHAIN</h1>
+          <video
+            width={500}
+            ref={el => videoRefs.current[11] = el}
+            style={{ cursor: 'pointer' }}
+            muted
+          >
+            <source src="https://firebasestorage.googleapis.com/v0/b/bykurtz-website.appspot.com/o/video11.mp4?alt=media" type='video/mp4' />
+          </video>
+        </div>
+      </div>
+
     </div>
-    
+
   );
 }

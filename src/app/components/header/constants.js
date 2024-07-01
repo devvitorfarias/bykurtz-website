@@ -5,20 +5,16 @@ export const HEADER_MENU_ITEMS = [
   {
     title: "Portfolio",
     link: "/portfolio",
-    groupName: "group/wwa",
+    groupName: "group/portfolio",
   },
   {
     title: "What we do",
-    link: "/what-we-do",
+    link: "/",
     groupName: "group/wwd",
     subMenu: () => (
       <section className="flex items-center gap-6">
         <section className="grid text-white grid-cols-1 grow sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-auto-fill gap-4">
           <div>
-            <button className=" font-semibold hover:translate-x-2 transition-transform ease-in-out duration-300 cursor-pointer">
-              Web & AI
-            </button>
-            <hr class="h-px my-2 border-0 bg-white" />
             <ul className="flex flex-col gap-2 text-xs">
               <li className="hover:translate-x-2 transition-transform ease-in-out duration-300 cursor-pointer">
                 <p className="text-2xl">Website  Development</p>
@@ -27,8 +23,32 @@ export const HEADER_MENU_ITEMS = [
                 <p className="text-2xl">App  Development</p>
               </li>
               <li className="hover:translate-x-2 transition-transform ease-in-out duration-300 cursor-pointer">
-                <p className="text-2xl">Software Development</p>
+                <p className="text-2xl">AI</p>
               </li>
+            </ul>
+          </div>
+          <div>
+            <ul className="flex flex-col gap-2 text-xs">
+              <li className="hover:translate-x-2 transition-transform ease-in-out duration-300 cursor-pointer">
+                <p className="text-2xl">Machine Learning</p>
+              </li>
+              <li className="hover:translate-x-2 transition-transform ease-in-out duration-300 cursor-pointer">
+                <p className="text-2xl">Mobile Application</p>
+              </li>
+              <li className="hover:translate-x-2 transition-transform ease-in-out duration-300 cursor-pointer">
+                <p className="text-2xl">Cyber Secutiry</p>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul className="flex flex-col gap-2 text-xs">
+              <li className="hover:translate-x-2 transition-transform ease-in-out duration-300 cursor-pointer">
+                <p className="text-2xl">(AR) & (VR)</p>
+              </li>
+              <li className="hover:translate-x-2 transition-transform ease-in-out duration-300 cursor-pointer">
+                <p className="text-2xl">BLOCKCHAIN</p>
+              </li>
+ 
             </ul>
           </div>
         </section>

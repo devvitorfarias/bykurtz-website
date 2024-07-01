@@ -18,9 +18,9 @@ export const Header = () => {
   const router = useRouter();
   return (
     <header className="h-[96px] w-full bg-background flex items-center px-4 fixed top-0 border-b border-b-black z-10">
-      <a target="_blank" href="/">
+      <Link href="/">
         <Image className="w-[260px] h-[64px]"  src={logo} alt="logo" />
-      </a>
+      </Link>
       <nav className=" grow h-full hidden lg:flex items-center text-white text-base font-semibold justify-center text-4xl">
         <ul className="flex gap-12 [&>li]:border-b-4 [&>li]:border-b-transparent [&>li]:h-full [&>li]:flex h-full [&>li>a]:m-auto">
           {HEADER_MENU_ITEMS.map((item) => {
